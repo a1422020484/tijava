@@ -2,7 +2,8 @@ package tjjava.six;
 
 public class ChocolateChip2 extends Cookie {
 
-//	ChocolateChip2(){
+	
+	//	ChocolateChip2(){
 //		System.out.println("ChocolateChip2 constructor!");
 //	}
 //	子类的构造方法总是首先调用父类的构造方法，如果子类的构造方法中没有明显的指明使用父类的那个构造方法，子类就去调用父类默认的无参构造方法。
