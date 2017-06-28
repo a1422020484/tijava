@@ -22,6 +22,10 @@ class TaskWithResult implements Callable<String> {
 
 }
 
+/**
+ * @author Administrator
+ *	带返回值的线程
+ */
 public class CallableDemo {
 
 	public static void main(String[] args) {
