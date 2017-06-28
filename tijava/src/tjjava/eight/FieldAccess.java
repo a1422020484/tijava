@@ -18,7 +18,7 @@ class Super{
 	}
 }
 
-class Sub extends Super{
+class Sub extends Super {
 	public int field = 1;
 	public int getField(){
 		return field;
