@@ -7,4 +7,14 @@ public class App {
 	public void play(){
 		System.out.println(this.nameString);
 	}
+	
+	public App(){
+		
+	}
+	public App(int x){
+		this();
+	}
+	public App(int x,int y){
+		this(x);
+	}
 }

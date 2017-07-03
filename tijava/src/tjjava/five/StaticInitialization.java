@@ -6,11 +6,9 @@ public class StaticInitialization {
 
 	}
 
-	
 }
 
-
-class Bowl{
+class Bowl {
 	public Bowl() {
 		// TODO Auto-generated constructor stub
 		System.out.println("bo");
