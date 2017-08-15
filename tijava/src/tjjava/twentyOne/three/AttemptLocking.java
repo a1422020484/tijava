@@ -37,12 +37,13 @@ public class AttemptLocking {
 		final AttemptLocking al = new AttemptLocking();
 		al.untimed();
 		al.timed();
-		new Thread(){
+		new Thread() {
 			{
 				setDaemon(true);
 			}
+
 			@Override
-			public void run(){
+			public void run() {
 				al.lock.lock();
 				System.out.println("acquired");
 			}
