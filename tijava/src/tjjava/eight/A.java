@@ -1,6 +1,9 @@
 package tjjava.eight;
 
 public class A {
+	
+	public String name = "yangxp father";
+	
 	public String show(D obj) {
 		return ("A and D");
 	}
@@ -24,17 +27,29 @@ public class A {
         System.out.println(b.show(b));      
         System.out.println(b.show(c));      
         System.out.println(b.show(d));     
+        System.out.println(b.showN(d));  
+        System.out.println(a2.name);
+        System.out.println(b.name);
 	}
 }
 
 class B extends A {
 
+	public String name = "yangxp son";
+	
 	public String show(B obj) {
 		return ("B and B");
 	}
 
 	public String show(A obj) {
 		return ("B and A");
+	}
+	
+	public String show(C obj) {
+		return ("B and C");
+	}
+	public String showN(A obj) {
+		return ("N B and C");
 	}
 }
 

@@ -40,7 +40,7 @@ public class Apply {
 	public static void process(Processor p,String s){
 		System.out.println("using processor " + p);
 		System.out.println(p.process(s));
-	}
+	} 
 	public static void main(String[] args) {
 		process(new Upcase(),s);
 		process(new Downcase(),s);
