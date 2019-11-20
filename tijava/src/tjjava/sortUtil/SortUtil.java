@@ -1,5 +1,5 @@
 package tjjava.sortUtil;
 
-public class tt {
-
+public class SortUtil {
+	
 }
