@@ -12,7 +12,6 @@ public class SimpleChooseSort {
 
 	public static void main(String[] args) {
 		method1(arr);
-
 		printArr(arr);
 	}
 
