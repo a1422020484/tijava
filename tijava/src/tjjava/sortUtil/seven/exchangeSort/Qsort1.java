@@ -1,4 +1,4 @@
-package tjjava.sortUtil.seven;
+package tjjava.sortUtil.seven.exchangeSort;
 
 /**
  * @author Administrator

@@ -1,4 +1,4 @@
-package tjjava.sortUtil.seven;
+package tjjava.sortUtil.seven.exchangeSort;
 
 public class Qsort3 {
 	public static int[] qsort(int arr[], int start, int end) {
