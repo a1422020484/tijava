@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class RadixSort2 {
 	public static void main(String[] args) {
-		int arr[] = { 10, 5, 2, 1, 4, 3, 8, 9, 23, 44, 55, 22, 11, 25, 37 };
+		int arr[] = { 10, 5, 2, 1, 4, 3, 8, 9, 23, 12, 55, 22, 11, 25, 37 };
 		rsort(arr, 2);
 		System.out.println(Arrays.toString(arr));
 	}
