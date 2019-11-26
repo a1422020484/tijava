@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * @author yangxp
+ * 数组与泛型容器的比较 
+ */
 class BerylliumSphere {
 	private static long counter;
 	private final long id = counter++;
