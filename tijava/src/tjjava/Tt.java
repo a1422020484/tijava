@@ -8,6 +8,11 @@ public class Tt {
 		} catch (InstantiationException | IllegalAccessException e) {
 			e.printStackTrace();
 		}
+		
+		String t = "1111110110000001010101010110000110110101100011011000100101000000";
+		String s[] = t.split("");
+		System.out.println(s.length);
+		
 	}
 	
 	public static <T> T createNewInstance(Class<T> t) throws InstantiationException, IllegalAccessException{
